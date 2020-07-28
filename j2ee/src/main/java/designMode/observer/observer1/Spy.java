@@ -6,21 +6,22 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnSingleCandi
 
 @AllArgsConstructor
 @NoArgsConstructor
-public class Spy implements  Runnable {
+public class Spy implements Runnable {
 
     private HanFeiZi hfz;
     private LiSi ls;
     private String type;
+
     @Override
     public void run() {
-        while(true){
-            if(this.type.endsWith("")){
-                if(this.hfz.isHavingBreakFast()){
+        while (true) {
+            if (this.type.endsWith("")) {
+                if (this.hfz.isHavingBreakFast()) {
                     this.ls.update("");
                     this.hfz.setHavingBreakFast(false);
                 }
-            }else{
-                if(this.hfz.isHavingFun()){
+            } else {
+                if (this.hfz.isHavingFun()) {
                     this.ls.update("");
                     this.hfz.setHavingFun(false);
                 }

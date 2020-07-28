@@ -3,7 +3,10 @@ package designMode.handler.handler1;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-/**handler 责任链模式*/
+
+/**
+ * handler 责任链模式
+ */
 public class App {
 
     public static void main(String[] args) {

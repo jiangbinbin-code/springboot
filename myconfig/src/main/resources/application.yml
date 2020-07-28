@@ -1,20 +1,20 @@
 server:
-  port: 8081 # ·şÎñ°ó¶¨µÄ¶Ë¿Ú£¬²»Ğ´Ä¬ÈÏÊÇ8080
+  port: 8081 # ï¿½ï¿½ï¿½ï¿½ó¶¨µÄ¶Ë¿Ú£ï¿½ï¿½ï¿½Ğ´Ä¬ï¿½ï¿½ï¿½ï¿½8080
   servlet:
-    context-path: /myredis # ·şÎñµÄÂ·¾¶£¬²»Ğ´Ä¬ÈÏÎª¿Õ
+    context-path: /myredis # ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ´Ä¬ï¿½ï¿½Îªï¿½ï¿½
 spring:
   application:
-    name: service #·şÎñÃû
+    name: service #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   profiles:
-    active: default # ÅäÖÃÎÄ¼şµÄ°æ±¾
-# apollo¼¯³É
-# apollo ÅäÖÃÓ¦ÓÃµÄ appid
+    active: default # ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ä°æ±¾
+# apolloï¿½ï¿½ï¿½ï¿½
+# apollo ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ãµï¿½ appid
 
-app.id=springboot-apollo-demo1
-  # apollo meta-serverµØÖ·£¬Ò»°ãÍ¬config-serverµØÖ·
-apollo.meta=http://192.168.0.153:8080
-  #ÆôÓÃapolloÅäÖÃ¿ª¹Ø
-apollo.bootstrap.enabled=true
-apollo.bootstrap.eagerLoad.enabled=true
-  # apollo Ê¹ÓÃÅäÖÃµÄÃüÃû¿Õ¼ä£¬¶à¸öÒÔ¶ººÅ·Ö¸ô
-apollo.bootstrap.namespaces = application
+  app.id=springboot-apollo-demo1
+  # apollo meta-serverï¿½ï¿½Ö·ï¿½ï¿½Ò»ï¿½ï¿½Í¬config-serverï¿½ï¿½Ö·
+  apollo.meta=http://192.168.0.153:8080
+  #ï¿½ï¿½ï¿½ï¿½apolloï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½
+  apollo.bootstrap.enabled=true
+  apollo.bootstrap.eagerLoad.enabled=true
+  # apollo Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¼ä£¬ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½Å·Ö¸ï¿½
+  apollo.bootstrap.namespaces = application

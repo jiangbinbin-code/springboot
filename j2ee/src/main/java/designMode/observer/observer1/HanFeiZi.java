@@ -11,17 +11,18 @@ import lombok.ToString;
 @Setter
 public class HanFeiZi implements IHanFeiZi {
 
-    private boolean isHavingBreakFast=false;
-    private boolean isHavingFun=false;
+    private boolean isHavingBreakFast = false;
+    private boolean isHavingFun = false;
+
     @Override
     public void haveBreakFast() {
         System.out.println("吃饭");
-        this.isHavingBreakFast=true;
+        this.isHavingBreakFast = true;
     }
 
     @Override
     public void haveFun() {
         System.out.println("娱乐");
-        this.isHavingFun=true;
+        this.isHavingFun = true;
     }
 }

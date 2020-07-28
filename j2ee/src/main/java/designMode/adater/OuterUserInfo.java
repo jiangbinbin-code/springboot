@@ -2,11 +2,12 @@ package designMode.adater;
 
 import java.util.Map;
 
-public class OuterUserInfo extends OuterUser implements  IUserInfo {
+public class OuterUserInfo extends OuterUser implements IUserInfo {
 
-    private Map baseInfo=super.getUserBaseInfo();
-    private Map homeInfo=super.getUserHomeInfo();
-    private Map officeInfo=super.getUserOfficeInfo();
+    private Map baseInfo = super.getUserBaseInfo();
+    private Map homeInfo = super.getUserHomeInfo();
+    private Map officeInfo = super.getUserOfficeInfo();
+
     @Override
     public String getUserName() {
 
