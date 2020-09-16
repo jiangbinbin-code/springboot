@@ -1,0 +1,33 @@
+server:
+  port: 9999
+  context-path: /spilder
+
+database: mysql
+spring:
+  datasource:
+    url : jdbc:mysql://127.0.0.1:3306/dong?characterEncoding=UTF-8
+    username : root
+    password : 12345678
+    driver-class-name : com.mysql.jdbc.Driver
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+
+mybatis:
+  type-aliases-package: com.yulaiz.web.dao
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    root: debug
+    org.springframework.boot: error
+    com.yulaiz.web: debug
+  file:
+    name: ${catalina.base}/logs/test.log
+
+#Í³¼ÆÍøÇ°×º
+spilder.gov.pre: https://data.stats.gov.cn/

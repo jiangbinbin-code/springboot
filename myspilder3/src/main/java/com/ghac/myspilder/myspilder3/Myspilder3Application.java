@@ -1,13 +1,13 @@
-package com.ghac.child.mq;
+package com.ghac.myspilder.myspilder3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MqApplication {
+public class Myspilder3Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(MqApplication.class, args);
+        SpringApplication.run(Myspilder3Application.class, args);
     }
 
 }

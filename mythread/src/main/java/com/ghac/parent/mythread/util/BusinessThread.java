@@ -7,8 +7,6 @@ import org.springframework.stereotype.Component;
 /**
  * Created by Administrator on 2018/5/9.
  */
-@Component
-@Scope("prototype")//spring 多例
 public class BusinessThread implements Runnable{
 
     private String acceptStr;
