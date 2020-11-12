@@ -7,11 +7,17 @@ import org.jsoup.select.Elements;
 import org.thymeleaf.util.StringUtils;
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * 国家数据
+ * */
 public class HttpBaseUtil {
 
 
     public static void HttpGet(String url) {
         //请求列表页
+
+
+        //http://www.stats.gov.cn/tjsj/ndsj/2019/indexch.htm
         String listContent = HttpUtil.get("https://data.stats.gov.cn/");
         String preURl="https://data.stats.gov.cn/";
         List<String> ifnormas=new ArrayList<>();
@@ -37,15 +43,15 @@ public class HttpBaseUtil {
         System.out.println("---------------easys start -------------");
         getEasyQueryInfo( easys);
         System.out.println("---------------easys end -------------");
-        System.out.println("---------------searchs starts -------------");
-        getSearchQueryInfo( searchs);
-        System.out.println("---------------searchs end -------------");
-        System.out.println("---------------tables starts -------------");
-        getTablequeryInfo( tables);
-        System.out.println("---------------tables end -------------");
-        System.out.println("---------------ifnormas starts -------------");
-        getIfnormalInfo( ifnormas);
-        System.out.println("---------------ifnormas end -------------");
+//        System.out.println("---------------searchs starts -------------");
+//        getSearchQueryInfo( searchs);
+//        System.out.println("---------------searchs end -------------");
+//        System.out.println("---------------tables starts -------------");
+//        getTablequeryInfo( tables);
+//        System.out.println("---------------tables end -------------");
+//        System.out.println("---------------ifnormas starts -------------");
+//        getIfnormalInfo( ifnormas);
+//        System.out.println("---------------ifnormas end -------------");
     }
 
     public static void main(String args[]){
@@ -60,8 +66,22 @@ public class HttpBaseUtil {
                 Elements links = doc.select("a[href]");
                 links.forEach(link -> {
                     String linkHref = link.attr("href");
-                    System.out.println(linkHref);
+                    if(StringUtils.contains(linkHref,"ifnormal.htm")){
+//                        String listContent2 = HttpUtil.get("https://data.stats.gov.cn/"+linkHref);
+//                        System.out.println(listContent2);
+
+                    }else if(StringUtils.contains(linkHref,"tablequery.htm")){
+                        String listContent2 = HttpUtil.get("https://data.stats.gov.cn/");
+                    }else if(StringUtils.contains(linkHref,"search.htm")){
+                        String listContent2 = HttpUtil.get("https://data.stats.gov.cn/");
+                    }else if(StringUtils.contains(linkHref,"easyquery.htm")){
+                        String listContent2 = HttpUtil.get("https://data.stats.gov.cn/"+linkHref);
+                        System.out.println(listContent2);
+                    }else{
+                        //  System.out.println("----"+linkHref);
+                    }
                 });
+
             });
         }
 

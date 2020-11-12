@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.FilmRecordDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.FilmRecordEntity" id="filmRecordMap">
+        <result property="id" column="id"/>
+        <result property="recNo" column="rec_no"/>
+        <result property="filmName" column="film_name"/>
+        <result property="recOrg" column="rec_org"/>
+        <result property="scriptWriter" column="script_writer"/>
+        <result property="recResult" column="rec_result"/>
+        <result property="recArea" column="rec_area"/>
+        <result property="classified" column="classified"/>
+        <result property="dateRange" column="date_range"/>
+        <result property="annDate" column="ann_date"/>
+    </resultMap>
+
+
+</mapper>

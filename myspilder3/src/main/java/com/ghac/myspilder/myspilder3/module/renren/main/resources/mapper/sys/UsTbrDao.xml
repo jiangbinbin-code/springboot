@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.UsTbrDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.UsTbrEntity" id="usTbrMap">
+        <result property="id" column="id"/>
+        <result property="date" column="date"/>
+        <result property="w4Bd" column="w4_bd"/>
+        <result property="w4Ce" column="w4_ce"/>
+        <result property="w8Bd" column="w8_bd"/>
+        <result property="w8Ce" column="w8_ce"/>
+        <result property="w13Bd" column="w13_bd"/>
+        <result property="w13Ce" column="w13_ce"/>
+        <result property="w26Bd" column="w26_bd"/>
+        <result property="w26Ce" column="w26_ce"/>
+        <result property="w52Bd" column="w52_bd"/>
+        <result property="w52Ce" column="w52_ce"/>
+    </resultMap>
+
+
+</mapper>

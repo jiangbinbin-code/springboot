@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.FinaMainbzDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.FinaMainbzEntity" id="finaMainbzMap">
+        <result property="id" column="id"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="endDate" column="end_date"/>
+        <result property="bzItem" column="bz_item"/>
+        <result property="bzSales" column="bz_sales"/>
+        <result property="bzProfit" column="bz_profit"/>
+        <result property="bzCost" column="bz_cost"/>
+        <result property="currType" column="curr_type"/>
+        <result property="updateFlag" column="update_flag"/>
+    </resultMap>
+
+
+</mapper>

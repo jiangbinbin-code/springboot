@@ -5,10 +5,11 @@ server:
 database: mysql
 spring:
   datasource:
-    url : jdbc:mysql://127.0.0.1:3306/dong?characterEncoding=UTF-8
-    username : root
-    password : 12345678
-    driver-class-name : com.mysql.jdbc.Driver
+      username: root
+      password: 123456
+      url: jdbc:mysql://localhost:3306/mybatis?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+      type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
     database: 0
     host: 127.0.0.1
@@ -29,5 +30,8 @@ logging:
   file:
     name: ${catalina.base}/logs/test.log
 
-#ͳ����ǰ׺
+#爬虫
 spilder.gov.pre: https://data.stats.gov.cn/
+#定时任务
+webmagic.job.cron=0 0 0 1 * ? *
+

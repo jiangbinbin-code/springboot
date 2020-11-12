@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.FxObasicDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.FxObasicEntity" id="fxObasicMap">
+        <result property="id" column="id"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="name" column="name"/>
+        <result property="classify" column="classify"/>
+        <result property="exchange" column="exchange"/>
+        <result property="minUnit" column="min_unit"/>
+        <result property="maxUnit" column="max_unit"/>
+        <result property="pip" column="pip"/>
+        <result property="pipCost" column="pip_cost"/>
+        <result property="tragetSpread" column="traget_spread"/>
+        <result property="minStopDistance" column="min_stop_distance"/>
+        <result property="tradingHours" column="trading_hours"/>
+        <result property="breakTime" column="break_time"/>
+    </resultMap>
+
+
+</mapper>

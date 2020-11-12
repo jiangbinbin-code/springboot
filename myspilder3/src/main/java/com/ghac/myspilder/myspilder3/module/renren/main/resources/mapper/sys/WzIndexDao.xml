@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.WzIndexDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.WzIndexEntity" id="wzIndexMap">
+        <result property="id" column="id"/>
+        <result property="date" column="date"/>
+        <result property="compRate" column="comp_rate"/>
+        <result property="centerRate" column="center_rate"/>
+        <result property="microRate" column="micro_rate"/>
+        <result property="cmRate" column="cm_rate"/>
+        <result property="sdbRate" column="sdb_rate"/>
+        <result property="omRate" column="om_rate"/>
+        <result property="aaRate" column="aa_rate"/>
+        <result property="m1Rate" column="m1_rate"/>
+        <result property="m3Rate" column="m3_rate"/>
+        <result property="m6Rate" column="m6_rate"/>
+        <result property="m12Rate" column="m12_rate"/>
+        <result property="longRate" column="long_rate"/>
+    </resultMap>
+
+
+</mapper>

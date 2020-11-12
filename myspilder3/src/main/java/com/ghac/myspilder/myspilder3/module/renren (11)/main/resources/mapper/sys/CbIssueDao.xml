@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.CbIssueDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.CbIssueEntity" id="cbIssueMap">
+        <result property="id" column="id"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="annDate" column="ann_date"/>
+        <result property="resAnnDate" column="res_ann_date"/>
+        <result property="planIssueSize" column="plan_issue_size"/>
+        <result property="issueSize" column="issue_size"/>
+        <result property="issuePrice" column="issue_price"/>
+        <result property="issueType" column="issue_type"/>
+        <result property="issueCost" column="issue_cost"/>
+        <result property="onlCode" column="onl_code"/>
+        <result property="onlName" column="onl_name"/>
+        <result property="onlDate" column="onl_date"/>
+        <result property="onlSize" column="onl_size"/>
+        <result property="onlPchVol" column="onl_pch_vol"/>
+        <result property="onlPchNum" column="onl_pch_num"/>
+        <result property="onlPchExcess" column="onl_pch_excess"/>
+        <result property="onlWinningRate" column="onl_winning_rate"/>
+        <result property="shdRationCode" column="shd_ration_code"/>
+        <result property="shdRationName" column="shd_ration_name"/>
+        <result property="shdRationDate" column="shd_ration_date"/>
+        <result property="shdRationRecordDate" column="shd_ration_record_date"/>
+        <result property="shdRationPayDate" column="shd_ration_pay_date"/>
+        <result property="shdRationPrice" column="shd_ration_price"/>
+        <result property="shdRationRatio" column="shd_ration_ratio"/>
+        <result property="shdRationSize" column="shd_ration_size"/>
+        <result property="shdRationVol" column="shd_ration_vol"/>
+        <result property="shdRationNum" column="shd_ration_num"/>
+        <result property="shdRationExcess" column="shd_ration_excess"/>
+        <result property="offlSize" column="offl_size"/>
+        <result property="offlDeposit" column="offl_deposit"/>
+        <result property="offlPchVol" column="offl_pch_vol"/>
+        <result property="offlPchNum" column="offl_pch_num"/>
+        <result property="offlPchExcess" column="offl_pch_excess"/>
+        <result property="offlWinningRate" column="offl_winning_rate"/>
+        <result property="leadUnderwriter" column="lead_underwriter"/>
+        <result property="leadUnderwriterVol" column="lead_underwriter_vol"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.ShiborQuoteDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.ShiborQuoteEntity" id="shiborQuoteMap">
+        <result property="id" column="id"/>
+        <result property="date" column="date"/>
+        <result property="bank" column="bank"/>
+        <result property="onB" column="on_b"/>
+        <result property="onA" column="on_a"/>
+        <result property="w1B" column="w1_b"/>
+        <result property="w1A" column="w1_a"/>
+        <result property="w2B" column="w2_b"/>
+        <result property="w2A" column="w2_a"/>
+        <result property="m1B" column="m1_b"/>
+        <result property="m1A" column="m1_a"/>
+        <result property="m3B" column="m3_b"/>
+        <result property="m3A" column="m3_a"/>
+        <result property="m6B" column="m6_b"/>
+        <result property="m6A" column="m6_a"/>
+        <result property="m9B" column="m9_b"/>
+        <result property="m9A" column="m9_a"/>
+        <result property="y1B" column="y1_b"/>
+        <result property="y1A" column="y1_a"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.EcoCalDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.EcoCalEntity" id="ecoCalMap">
+        <result property="id" column="id"/>
+        <result property="date" column="date"/>
+        <result property="time" column="time"/>
+        <result property="currency" column="currency"/>
+        <result property="country" column="country"/>
+        <result property="event" column="event"/>
+        <result property="value" column="value"/>
+        <result property="preValue" column="pre_value"/>
+        <result property="foreValue" column="fore_value"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.UsTltrDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.UsTltrEntity" id="usTltrMap">
+        <result property="id" column="id"/>
+        <result property="date" column="date"/>
+        <result property="ltc" column="ltc"/>
+        <result property="cmt" column="cmt"/>
+        <result property="eFactor" column="e_factor"/>
+    </resultMap>
+
+
+</mapper>
