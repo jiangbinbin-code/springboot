@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.BakDailyDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.BakDailyEntity" id="bakDailyMap">
+        <result property="id" column="id"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="tradeDate" column="trade_date"/>
+        <result property="name" column="name"/>
+        <result property="pctChange" column="pct_change"/>
+        <result property="close" column="close"/>
+        <result property="change" column="change"/>
+        <result property="open" column="open"/>
+        <result property="high" column="high"/>
+        <result property="low" column="low"/>
+        <result property="preClose" column="pre_close"/>
+        <result property="volRatio" column="vol_ratio"/>
+        <result property="turnOver" column="turn_over"/>
+        <result property="swing" column="swing"/>
+        <result property="vol" column="vol"/>
+        <result property="amount" column="amount"/>
+        <result property="selling" column="selling"/>
+        <result property="buying" column="buying"/>
+        <result property="totalShare" column="total_share"/>
+        <result property="floatShare" column="float_share"/>
+        <result property="pe" column="pe"/>
+        <result property="industry" column="industry"/>
+        <result property="area" column="area"/>
+        <result property="floatMv" column="float_mv"/>
+        <result property="totalMv" column="total_mv"/>
+        <result property="avgPrice" column="avg_price"/>
+        <result property="strength" column="strength"/>
+        <result property="activity" column="activity"/>
+        <result property="avgTurnover" column="avg_turnover"/>
+        <result property="attack" column="attack"/>
+        <result property="interval3" column="interval_3"/>
+        <result property="interval6" column="interval_6"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.FundCompanyDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.FundCompanyEntity" id="fundCompanyMap">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="shortname" column="shortname"/>
+        <result property="shortEnname" column="short_enname"/>
+        <result property="province" column="province"/>
+        <result property="city" column="city"/>
+        <result property="address" column="address"/>
+        <result property="phone" column="phone"/>
+        <result property="office" column="office"/>
+        <result property="website" column="website"/>
+        <result property="chairman" column="chairman"/>
+        <result property="manager" column="manager"/>
+        <result property="regCapital" column="reg_capital"/>
+        <result property="setupDate" column="setup_date"/>
+        <result property="endDate" column="end_date"/>
+        <result property="employees" column="employees"/>
+        <result property="mainBusiness" column="main_business"/>
+        <result property="orgCode" column="org_code"/>
+        <result property="creditCode" column="credit_code"/>
+    </resultMap>
+
+
+</mapper>

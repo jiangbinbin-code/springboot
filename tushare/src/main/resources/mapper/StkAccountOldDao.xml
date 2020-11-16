@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.StkAccountOldDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.StkAccountOldEntity" id="stkAccountOldMap">
+        <result property="id" column="id"/>
+        <result property="date" column="date"/>
+        <result property="newSh" column="new_sh"/>
+        <result property="newSz" column="new_sz"/>
+        <result property="activeSh" column="active_sh"/>
+        <result property="activeSz" column="active_sz"/>
+        <result property="totalSh" column="total_sh"/>
+        <result property="totalSz" column="total_sz"/>
+        <result property="tradeSh" column="trade_sh"/>
+        <result property="tradeSz" column="trade_sz"/>
+    </resultMap>
+
+
+</mapper>

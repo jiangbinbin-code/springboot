@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.ExpressDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.ExpressEntity" id="expressMap">
+        <result property="id" column="id"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="annDate" column="ann_date"/>
+        <result property="endDate" column="end_date"/>
+        <result property="revenue" column="revenue"/>
+        <result property="operateProfit" column="operate_profit"/>
+        <result property="totalProfit" column="total_profit"/>
+        <result property="nIncome" column="n_income"/>
+        <result property="totalAssets" column="total_assets"/>
+        <result property="totalHldrEqyExcMinInt" column="total_hldr_eqy_exc_min_int"/>
+        <result property="dilutedEps" column="diluted_eps"/>
+        <result property="dilutedRoe" column="diluted_roe"/>
+        <result property="yoyNetProfit" column="yoy_net_profit"/>
+        <result property="bps" column="bps"/>
+        <result property="yoySales" column="yoy_sales"/>
+        <result property="yoyOp" column="yoy_op"/>
+        <result property="yoyTp" column="yoy_tp"/>
+        <result property="yoyDeduNp" column="yoy_dedu_np"/>
+        <result property="yoyEps" column="yoy_eps"/>
+        <result property="yoyRoe" column="yoy_roe"/>
+        <result property="growthAssets" column="growth_assets"/>
+        <result property="yoyEquity" column="yoy_equity"/>
+        <result property="growthBps" column="growth_bps"/>
+        <result property="orLastYear" column="or_last_year"/>
+        <result property="opLastYear" column="op_last_year"/>
+        <result property="tpLastYear" column="tp_last_year"/>
+        <result property="npLastYear" column="np_last_year"/>
+        <result property="epsLastYear" column="eps_last_year"/>
+        <result property="openNetAssets" column="open_net_assets"/>
+        <result property="openBps" column="open_bps"/>
+        <result property="perfSummary" column="perf_summary"/>
+        <result property="isAudit" column="is_audit"/>
+        <result property="remark" column="remark"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.PledgeDetailDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.PledgeDetailEntity" id="pledgeDetailMap">
+        <result property="id" column="id"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="annDate" column="ann_date"/>
+        <result property="holderName" column="holder_name"/>
+        <result property="pledgeAmount" column="pledge_amount"/>
+        <result property="startDate" column="start_date"/>
+        <result property="endDate" column="end_date"/>
+        <result property="isRelease" column="is_release"/>
+        <result property="releaseDate" column="release_date"/>
+        <result property="pledgor" column="pledgor"/>
+        <result property="holdingAmount" column="holding_amount"/>
+        <result property="pledgedAmount" column="pledged_amount"/>
+        <result property="pTotalRatio" column="p_total_ratio"/>
+        <result property="hTotalRatio" column="h_total_ratio"/>
+        <result property="isBuyback" column="is_buyback"/>
+    </resultMap>
+
+
+</mapper>

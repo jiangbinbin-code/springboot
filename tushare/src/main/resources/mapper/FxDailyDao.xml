@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.FxDailyDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.FxDailyEntity" id="fxDailyMap">
+        <result property="id" column="id"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="tradeDate" column="trade_date"/>
+        <result property="bidOpen" column="bid_open"/>
+        <result property="bidClose" column="bid_close"/>
+        <result property="bidHigh" column="bid_high"/>
+        <result property="bidLow" column="bid_low"/>
+        <result property="askOpen" column="ask_open"/>
+        <result property="askClose" column="ask_close"/>
+        <result property="askHigh" column="ask_high"/>
+        <result property="askLow" column="ask_low"/>
+        <result property="tickQty" column="tick_qty"/>
+        <result property="exchange" column="exchange"/>
+    </resultMap>
+
+
+</mapper>

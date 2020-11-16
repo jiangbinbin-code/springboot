@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.MarginDetailDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.MarginDetailEntity" id="marginDetailMap">
+        <result property="id" column="id"/>
+        <result property="tradeDate" column="trade_date"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="name" column="name"/>
+        <result property="rzye" column="rzye"/>
+        <result property="rqye" column="rqye"/>
+        <result property="rzmre" column="rzmre"/>
+        <result property="rqyl" column="rqyl"/>
+        <result property="rzche" column="rzche"/>
+        <result property="rqchl" column="rqchl"/>
+        <result property="rqmcl" column="rqmcl"/>
+        <result property="rzrqye" column="rzrqye"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.StkHoldertradeDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.StkHoldertradeEntity" id="stkHoldertradeMap">
+        <result property="id" column="id"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="annDate" column="ann_date"/>
+        <result property="holderName" column="holder_name"/>
+        <result property="holderType" column="holder_type"/>
+        <result property="inDe" column="in_de"/>
+        <result property="changeVol" column="change_vol"/>
+        <result property="changeRatio" column="change_ratio"/>
+        <result property="afterShare" column="after_share"/>
+        <result property="afterRatio" column="after_ratio"/>
+        <result property="avgPrice" column="avg_price"/>
+        <result property="totalShare" column="total_share"/>
+        <result property="beginDate" column="begin_date"/>
+        <result property="closeDate" column="close_date"/>
+    </resultMap>
+
+
+</mapper>

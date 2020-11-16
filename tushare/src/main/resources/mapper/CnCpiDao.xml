@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.CnCpiDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.CnCpiEntity" id="cnCpiMap">
+        <result property="id" column="id"/>
+        <result property="month" column="month"/>
+        <result property="ntVal" column="nt_val"/>
+        <result property="ntYoy" column="nt_yoy"/>
+        <result property="ntMom" column="nt_mom"/>
+        <result property="ntAccu" column="nt_accu"/>
+        <result property="townVal" column="town_val"/>
+        <result property="townYoy" column="town_yoy"/>
+        <result property="townMom" column="town_mom"/>
+        <result property="townAccu" column="town_accu"/>
+        <result property="cntVal" column="cnt_val"/>
+        <result property="cntYoy" column="cnt_yoy"/>
+        <result property="cntMom" column="cnt_mom"/>
+        <result property="cntAccu" column="cnt_accu"/>
+    </resultMap>
+
+
+</mapper>

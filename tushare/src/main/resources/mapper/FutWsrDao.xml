@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.FutWsrDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.FutWsrEntity" id="futWsrMap">
+        <result property="id" column="id"/>
+        <result property="tradeDate" column="trade_date"/>
+        <result property="symbol" column="symbol"/>
+        <result property="futName" column="fut_name"/>
+        <result property="warehouse" column="warehouse"/>
+        <result property="whId" column="wh_id"/>
+        <result property="preVol" column="pre_vol"/>
+        <result property="vol" column="vol"/>
+        <result property="volChg" column="vol_chg"/>
+        <result property="area" column="area"/>
+        <result property="year" column="year"/>
+        <result property="grade" column="grade"/>
+        <result property="brand" column="brand"/>
+        <result property="place" column="place"/>
+        <result property="pd" column="pd"/>
+        <result property="isCt" column="is_ct"/>
+        <result property="unit" column="unit"/>
+        <result property="exchange" column="exchange"/>
+    </resultMap>
+
+
+</mapper>

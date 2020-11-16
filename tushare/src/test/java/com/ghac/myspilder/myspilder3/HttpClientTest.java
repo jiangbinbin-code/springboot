@@ -1,0 +1,19 @@
+package com.ghac.myspilder.myspilder3;
+
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = com.ghac.myspilder.myspilder3.Myspilder3Application.class)
+public class HttpClientTest {
+
+
+
+    @Test
+    public void testSend(){
+
+    }
+}

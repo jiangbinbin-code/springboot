@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.IncomeDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.IncomeEntity" id="incomeMap">
+        <result property="id" column="id"/>
+        <result property="tsCode" column="ts_code"/>
+        <result property="annDate" column="ann_date"/>
+        <result property="fAnnDate" column="f_ann_date"/>
+        <result property="endDate" column="end_date"/>
+        <result property="reportType" column="report_type"/>
+        <result property="compType" column="comp_type"/>
+        <result property="basicEps" column="basic_eps"/>
+        <result property="dilutedEps" column="diluted_eps"/>
+        <result property="totalRevenue" column="total_revenue"/>
+        <result property="revenue" column="revenue"/>
+        <result property="intIncome" column="int_income"/>
+        <result property="premEarned" column="prem_earned"/>
+        <result property="commIncome" column="comm_income"/>
+        <result property="nCommisIncome" column="n_commis_income"/>
+        <result property="nOthIncome" column="n_oth_income"/>
+        <result property="nOthBIncome" column="n_oth_b_income"/>
+        <result property="premIncome" column="prem_income"/>
+        <result property="outPrem" column="out_prem"/>
+        <result property="unePremReser" column="une_prem_reser"/>
+        <result property="reinsIncome" column="reins_income"/>
+        <result property="nSecTbIncome" column="n_sec_tb_income"/>
+        <result property="nSecUwIncome" column="n_sec_uw_income"/>
+        <result property="nAssetMgIncome" column="n_asset_mg_income"/>
+        <result property="othBIncome" column="oth_b_income"/>
+        <result property="fvValueChgGain" column="fv_value_chg_gain"/>
+        <result property="investIncome" column="invest_income"/>
+        <result property="assInvestIncome" column="ass_invest_income"/>
+        <result property="forexGain" column="forex_gain"/>
+        <result property="totalCogs" column="total_cogs"/>
+        <result property="operCost" column="oper_cost"/>
+        <result property="intExp" column="int_exp"/>
+        <result property="commExp" column="comm_exp"/>
+        <result property="bizTaxSurchg" column="biz_tax_surchg"/>
+        <result property="sellExp" column="sell_exp"/>
+        <result property="adminExp" column="admin_exp"/>
+        <result property="finExp" column="fin_exp"/>
+        <result property="assetsImpairLoss" column="assets_impair_loss"/>
+        <result property="premRefund" column="prem_refund"/>
+        <result property="compensPayout" column="compens_payout"/>
+        <result property="reserInsurLiab" column="reser_insur_liab"/>
+        <result property="divPayt" column="div_payt"/>
+        <result property="reinsExp" column="reins_exp"/>
+        <result property="operExp" column="oper_exp"/>
+        <result property="compensPayoutRefu" column="compens_payout_refu"/>
+        <result property="insurReserRefu" column="insur_reser_refu"/>
+        <result property="reinsCostRefund" column="reins_cost_refund"/>
+        <result property="otherBusCost" column="other_bus_cost"/>
+        <result property="operateProfit" column="operate_profit"/>
+        <result property="nonOperIncome" column="non_oper_income"/>
+        <result property="nonOperExp" column="non_oper_exp"/>
+        <result property="ncaDisploss" column="nca_disploss"/>
+        <result property="totalProfit" column="total_profit"/>
+        <result property="incomeTax" column="income_tax"/>
+        <result property="nIncome" column="n_income"/>
+        <result property="nIncomeAttrP" column="n_income_attr_p"/>
+        <result property="minorityGain" column="minority_gain"/>
+        <result property="othComprIncome" column="oth_compr_income"/>
+        <result property="tComprIncome" column="t_compr_income"/>
+        <result property="comprIncAttrP" column="compr_inc_attr_p"/>
+        <result property="comprIncAttrMS" column="compr_inc_attr_m_s"/>
+        <result property="ebit" column="ebit"/>
+        <result property="ebitda" column="ebitda"/>
+        <result property="insuranceExp" column="insurance_exp"/>
+        <result property="undistProfit" column="undist_profit"/>
+        <result property="distableProfit" column="distable_profit"/>
+        <result property="updateFlag" column="update_flag"/>
+    </resultMap>
+
+
+</mapper>

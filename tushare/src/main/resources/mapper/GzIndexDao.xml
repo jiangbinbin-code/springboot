@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.GzIndexDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.GzIndexEntity" id="gzIndexMap">
+        <result property="id" column="id"/>
+        <result property="date" column="date"/>
+        <result property="d10Rate" column="d10_rate"/>
+        <result property="m1Rate" column="m1_rate"/>
+        <result property="m3Rate" column="m3_rate"/>
+        <result property="m6Rate" column="m6_rate"/>
+        <result property="m12Rate" column="m12_rate"/>
+        <result property="longRate" column="long_rate"/>
+    </resultMap>
+
+
+</mapper>

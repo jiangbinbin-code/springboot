@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.BoCinemaDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.BoCinemaEntity" id="boCinemaMap">
+        <result property="id" column="id"/>
+        <result property="date" column="date"/>
+        <result property="cName" column="c_name"/>
+        <result property="audCount" column="aud_count"/>
+        <result property="attRatio" column="att_ratio"/>
+        <result property="dayAmount" column="day_amount"/>
+        <result property="dayShowcount" column="day_showcount"/>
+        <result property="avgPrice" column="avg_price"/>
+        <result property="pPc" column="p_pc"/>
+        <result property="rank" column="rank"/>
+    </resultMap>
+
+
+</mapper>
