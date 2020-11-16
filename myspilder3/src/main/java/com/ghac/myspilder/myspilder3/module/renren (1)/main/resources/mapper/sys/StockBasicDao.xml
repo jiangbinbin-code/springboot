@@ -4,7 +4,7 @@
 <mapper namespace="io.renren.modules.sys.dao.StockBasicDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="io.renren.modules.sys.entity.StockBasicEntity" id="stockBasicMap">
+    <resultMap type="com.ghac.myspilder.myspilder3.module.hsstock.basicdata.StockBasicEntity" id="stockBasicMap">
         <result property="id" column="id"/>
         <result property="tsCode" column="ts_code"/>
         <result property="symbol" column="symbol"/>
