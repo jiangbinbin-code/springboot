@@ -1,4 +1,4 @@
-package com.ghac.myspilder.myspilder3.module.hsstock.basicdata;
+package com.ghac.myspilder.myspilder3.module.hsstock.basicdata.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

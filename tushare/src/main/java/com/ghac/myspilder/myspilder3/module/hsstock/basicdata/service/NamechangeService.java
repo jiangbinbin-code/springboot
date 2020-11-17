@@ -1,8 +1,8 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.hsstock.basicdata.service;
+
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.NamechangeEntity;
+import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.entity.NamechangeEntity;
 
 import java.util.Map;
 

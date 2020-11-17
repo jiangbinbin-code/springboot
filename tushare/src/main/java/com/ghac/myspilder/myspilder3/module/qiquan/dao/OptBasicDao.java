@@ -1,4 +1,4 @@
-package io.renren.modules.sys.dao;
+package com.ghac.myspilder.myspilder3.module.qiquan.dao;
 
 import io.renren.modules.sys.entity.OptBasicEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;

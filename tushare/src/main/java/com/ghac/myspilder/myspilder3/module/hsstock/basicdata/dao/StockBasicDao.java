@@ -1,4 +1,4 @@
-package io.renren.modules.sys.dao;
+package com.ghac.myspilder.myspilder3.module.hsstock.basicdata.dao;
 
 import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.StockBasicEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;

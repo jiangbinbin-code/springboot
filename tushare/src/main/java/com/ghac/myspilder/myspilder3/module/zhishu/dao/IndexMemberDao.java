@@ -1,4 +1,4 @@
-package io.renren.modules.sys.dao;
+package com.ghac.myspilder.myspilder3.module.zhishu.dao;
 
 import io.renren.modules.sys.entity.IndexMemberEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
