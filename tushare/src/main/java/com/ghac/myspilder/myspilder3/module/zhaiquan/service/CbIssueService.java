@@ -1,10 +1,8 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.zhaiquan.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.CbIssueEntity;
+import com.ghac.myspilder.myspilder3.module.zhaiquan.entity.CbIssueEntity;
 
-import java.util.Map;
 
 /**
  * 
@@ -15,6 +13,5 @@ import java.util.Map;
  */
 public interface CbIssueService extends IService<CbIssueEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

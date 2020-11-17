@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.hsstock.basicdata.dao;
 
-import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.StockBasicEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.entity.StockBasicEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

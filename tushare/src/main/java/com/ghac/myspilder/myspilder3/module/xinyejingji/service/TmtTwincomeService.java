@@ -1,8 +1,7 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.xinyejingji.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.TmtTwincomeEntity;
+import com.ghac.myspilder.myspilder3.module.xinyejingji.entity.TmtTwincomeEntity;
 
 import java.util.Map;
 
@@ -15,6 +14,5 @@ import java.util.Map;
  */
 public interface TmtTwincomeService extends IService<TmtTwincomeEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

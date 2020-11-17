@@ -1,6 +1,6 @@
 package com.ghac.myspilder.myspilder3.module.hongguanjingjin.guowaihongguan.dao;
 
-import io.renren.modules.sys.entity.UsTrltrEntity;
+import com.ghac.myspilder.myspilder3.module.hongguanjingjin.guowaihongguan.entity.UsTrltrEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

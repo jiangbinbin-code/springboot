@@ -1,7 +1,8 @@
 package com.ghac.myspilder.myspilder3.module.zhishu.dao;
 
-import io.renren.modules.sys.entity.DailyInfoEntity;
+
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.zhishu.entity.DailyInfoEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

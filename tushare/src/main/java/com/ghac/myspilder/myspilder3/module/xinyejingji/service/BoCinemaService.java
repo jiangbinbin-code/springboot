@@ -1,8 +1,8 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.xinyejingji.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.BoCinemaEntity;
+import com.ghac.myspilder.myspilder3.module.xinyejingji.entity.BoCinemaEntity;
+
 
 import java.util.Map;
 
@@ -15,6 +15,5 @@ import java.util.Map;
  */
 public interface BoCinemaService extends IService<BoCinemaEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

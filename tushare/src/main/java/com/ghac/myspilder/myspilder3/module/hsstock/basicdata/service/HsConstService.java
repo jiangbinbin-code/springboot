@@ -1,8 +1,8 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.hsstock.basicdata.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.HsConstEntity;
+import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.entity.HsConstEntity;
+
 
 import java.util.Map;
 
@@ -15,6 +15,5 @@ import java.util.Map;
  */
 public interface HsConstService extends IService<HsConstEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

@@ -1,10 +1,8 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.hsstock.basicdata.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.StkRewardsEntity;
+import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.entity.StkRewardsEntity;
 
-import java.util.Map;
 
 /**
  * 
@@ -15,6 +13,5 @@ import java.util.Map;
  */
 public interface StkRewardsService extends IService<StkRewardsEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

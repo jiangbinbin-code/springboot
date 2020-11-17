@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.xinyejingji.dao;
 
-import io.renren.modules.sys.entity.TmtTwincomeEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.xinyejingji.entity.TmtTwincomeEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

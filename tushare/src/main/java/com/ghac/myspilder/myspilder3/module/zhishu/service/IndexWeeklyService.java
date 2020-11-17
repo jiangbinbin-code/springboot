@@ -1,8 +1,7 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.zhishu.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.IndexWeeklyEntity;
+import com.ghac.myspilder.myspilder3.module.zhishu.entity.IndexWeeklyEntity;
 
 import java.util.Map;
 
@@ -15,6 +14,6 @@ import java.util.Map;
  */
 public interface IndexWeeklyService extends IService<IndexWeeklyEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
+
 }
 

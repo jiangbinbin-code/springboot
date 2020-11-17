@@ -15,14 +15,6 @@ import io.renren.modules.sys.entity.HkBasicEntity;
 @Service("hkBasicService")
 public class HkBasicServiceImpl extends ServiceImpl<HkBasicDao, HkBasicEntity> implements HkBasicService {
 
-    @Override
-    public PageUtils queryPage(Map<String, Object> params) {
-        IPage<HkBasicEntity> page = this.page(
-                new Query<HkBasicEntity>().getPage(params),
-                new QueryWrapper<HkBasicEntity>()
-        );
 
-        return new PageUtils(page);
-    }
 
 }

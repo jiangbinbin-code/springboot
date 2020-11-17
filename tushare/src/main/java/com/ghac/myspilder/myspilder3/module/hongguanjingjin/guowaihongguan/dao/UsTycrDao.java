@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.hongguanjingjin.guowaihongguan.dao;
 
-import io.renren.modules.sys.entity.UsTycrEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.hongguanjingjin.guowaihongguan.entity.UsTycrEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

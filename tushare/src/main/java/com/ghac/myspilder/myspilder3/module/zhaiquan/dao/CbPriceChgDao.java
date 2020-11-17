@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.zhaiquan.dao;
 
-import io.renren.modules.sys.entity.CbPriceChgEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.zhaiquan.entity.CbPriceChgEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

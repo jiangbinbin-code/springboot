@@ -1,8 +1,10 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.hongguanjingjin.guowaihongguan.service;
+
+
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.UsTrltrEntity;
+import com.ghac.myspilder.myspilder3.module.hongguanjingjin.guowaihongguan.entity.UsTrltrEntity;
+import com.ghac.myspilder.myspilder3.util.PageUtils;
 
 import java.util.Map;
 
@@ -15,6 +17,5 @@ import java.util.Map;
  */
 public interface UsTrltrService extends IService<UsTrltrEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

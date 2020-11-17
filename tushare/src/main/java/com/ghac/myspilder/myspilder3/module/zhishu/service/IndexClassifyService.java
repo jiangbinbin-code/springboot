@@ -1,10 +1,8 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.zhishu.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.IndexClassifyEntity;
+import com.ghac.myspilder.myspilder3.module.zhishu.entity.IndexClassifyEntity;
 
-import java.util.Map;
 
 /**
  * 
@@ -14,7 +12,5 @@ import java.util.Map;
  * @date 2020-11-12 14:57:27
  */
 public interface IndexClassifyService extends IService<IndexClassifyEntity> {
-
-    PageUtils queryPage(Map<String, Object> params);
 }
 

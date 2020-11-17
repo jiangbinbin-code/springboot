@@ -4,8 +4,6 @@ package com.ghac.myspilder.myspilder3.module.hsstock.basicdata.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.entity.NamechangeEntity;
 
-import java.util.Map;
-
 /**
  * 
  *
@@ -15,6 +13,5 @@ import java.util.Map;
  */
 public interface NamechangeService extends IService<NamechangeEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

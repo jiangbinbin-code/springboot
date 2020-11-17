@@ -1,8 +1,7 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.zhishu.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.IndexWeightEntity;
+import com.ghac.myspilder.myspilder3.module.zhishu.entity.IndexWeightEntity;
 
 import java.util.Map;
 
@@ -15,6 +14,5 @@ import java.util.Map;
  */
 public interface IndexWeightService extends IService<IndexWeightEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

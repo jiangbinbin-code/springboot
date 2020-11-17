@@ -1,6 +1,6 @@
 package com.ghac.myspilder.myspilder3.module.xinyejingji.dao;
 
-import io.renren.modules.sys.entity.BoCinemaEntity;
+import com.ghac.myspilder.myspilder3.module.xinyejingji.entity.BoCinemaEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

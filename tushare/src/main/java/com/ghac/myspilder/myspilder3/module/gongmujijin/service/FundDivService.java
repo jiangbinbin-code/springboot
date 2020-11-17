@@ -1,7 +1,7 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.gongmujijin.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
+import com.ghac.myspilder.myspilder3.util.PageUtils;
 import io.renren.modules.sys.entity.FundDivEntity;
 
 import java.util.Map;
@@ -15,6 +15,5 @@ import java.util.Map;
  */
 public interface FundDivService extends IService<FundDivEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

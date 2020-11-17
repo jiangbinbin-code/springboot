@@ -1,7 +1,7 @@
-package io.renren.modules.sys.dao;
+package com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.dao;
 
-import io.renren.modules.sys.entity.IncomeEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.entity.IncomeEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

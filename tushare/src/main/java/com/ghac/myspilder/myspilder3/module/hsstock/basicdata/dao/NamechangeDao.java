@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.hsstock.basicdata.dao;
 
-import io.renren.modules.sys.entity.NamechangeEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.entity.NamechangeEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
