@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = com.ghac.myspilder.myspilder3.Myspilder3Application.class)
+@SpringBootTest(classes = TushareApplication.class)
 public class HttpClientTest {
 
 
