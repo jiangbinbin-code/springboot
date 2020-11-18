@@ -1,15 +1,10 @@
 package com.ghac.myspilder.myspilder3.module.gangstock.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
 
 import com.ghac.myspilder.myspilder3.module.gangstock.service.HkBasicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-
 
 
 /**
