@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.meistock.dao;
 
-import io.renren.modules.sys.entity.UsBasicEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.meistock.entity.UsBasicEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

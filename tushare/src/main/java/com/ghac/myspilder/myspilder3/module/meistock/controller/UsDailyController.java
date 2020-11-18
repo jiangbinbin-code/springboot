@@ -1,10 +1,10 @@
 package com.ghac.myspilder.myspilder3.module.meistock.controller;
 
 
+import com.ghac.myspilder.myspilder3.module.meistock.service.UsDailyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import io.renren.modules.sys.service.UsDailyService;
 
 
 

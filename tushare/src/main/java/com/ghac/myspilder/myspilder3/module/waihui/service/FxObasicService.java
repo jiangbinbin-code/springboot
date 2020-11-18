@@ -1,8 +1,7 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.waihui.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.FxObasicEntity;
+import com.ghac.myspilder.myspilder3.module.waihui.entity.FxObasicEntity;
 
 import java.util.Map;
 
@@ -15,6 +14,5 @@ import java.util.Map;
  */
 public interface FxObasicService extends IService<FxObasicEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

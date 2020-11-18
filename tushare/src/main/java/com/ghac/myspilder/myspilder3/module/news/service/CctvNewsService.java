@@ -1,10 +1,7 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.news.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.CctvNewsEntity;
-
-import java.util.Map;
+import com.ghac.myspilder.myspilder3.module.news.entity.CctvNewsEntity;
 
 /**
  * 
@@ -15,6 +12,5 @@ import java.util.Map;
  */
 public interface CctvNewsService extends IService<CctvNewsEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

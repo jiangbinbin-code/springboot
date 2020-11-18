@@ -3,7 +3,6 @@ package com.ghac.myspilder.myspilder3.module.zhishu.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.ghac.myspilder.myspilder3.module.zhishu.entity.IndexGlobalEntity;
 
-import java.util.Map;
 
 /**
  * 

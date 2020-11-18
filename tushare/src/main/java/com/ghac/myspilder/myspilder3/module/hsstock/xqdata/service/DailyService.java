@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.hsstock.xqdata.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.ghac.myspilder.myspilder3.module.hsstock.xqdata.entity.WeeklyEntity;
+import com.ghac.myspilder.myspilder3.module.hsstock.xqdata.entity.DailyEntity;
 
 
 /**
@@ -9,9 +9,9 @@ import com.ghac.myspilder.myspilder3.module.hsstock.xqdata.entity.WeeklyEntity;
  *
  * @author Mark
  * @email sunlightcs@gmail.com
- * @date 2020-11-12 14:56:58
+ * @date 2020-11-12 14:57:54
  */
-public interface WeeklyService extends IService<WeeklyEntity> {
+public interface DailyService extends IService<DailyEntity> {
 
 }
 

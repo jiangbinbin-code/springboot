@@ -1,8 +1,8 @@
 package com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.entity.ShiborLprEntity;
 import com.ghac.myspilder.myspilder3.util.PageUtils;
-import io.renren.modules.sys.entity.ShiborLprEntity;
 
 import java.util.Map;
 

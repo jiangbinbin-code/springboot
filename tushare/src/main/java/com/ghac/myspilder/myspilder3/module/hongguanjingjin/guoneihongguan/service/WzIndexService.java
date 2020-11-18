@@ -1,8 +1,8 @@
 package com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.entity.WzIndexEntity;
 import com.ghac.myspilder.myspilder3.util.PageUtils;
-import io.renren.modules.sys.entity.WzIndexEntity;
 
 import java.util.Map;
 

@@ -1,9 +1,9 @@
 package com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.controller;
 
+import com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.service.CnPpiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import io.renren.modules.sys.service.CnPpiService;
 
 
 

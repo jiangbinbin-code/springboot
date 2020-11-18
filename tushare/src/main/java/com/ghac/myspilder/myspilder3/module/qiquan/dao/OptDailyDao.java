@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.qiquan.dao;
 
-import io.renren.modules.sys.entity.OptDailyEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.qiquan.entity.OptDailyEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

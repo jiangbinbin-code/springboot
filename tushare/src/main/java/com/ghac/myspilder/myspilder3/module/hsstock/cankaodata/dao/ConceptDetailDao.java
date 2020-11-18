@@ -1,7 +1,7 @@
-package io.renren.modules.sys.dao;
+package com.ghac.myspilder.myspilder3.module.hsstock.cankaodata.dao;
 
-import io.renren.modules.sys.entity.ConceptDetailEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.hsstock.cankaodata.entity.ConceptDetailEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

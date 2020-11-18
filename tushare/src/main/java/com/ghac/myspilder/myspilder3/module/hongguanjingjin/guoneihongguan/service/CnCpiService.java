@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.modules.sys.entity.CnCpiEntity;
+import com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.entity.CnCpiEntity;
 
 
 /**

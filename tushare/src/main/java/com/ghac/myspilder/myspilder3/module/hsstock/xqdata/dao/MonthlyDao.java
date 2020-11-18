@@ -1,7 +1,7 @@
-package io.renren.modules.sys.dao;
+package com.ghac.myspilder.myspilder3.module.hsstock.xqdata.dao;
 
-import io.renren.modules.sys.entity.MonthlyEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.hsstock.xqdata.entity.MonthlyEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

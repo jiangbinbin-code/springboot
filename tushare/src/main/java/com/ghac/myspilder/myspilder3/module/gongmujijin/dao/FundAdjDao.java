@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.gongmujijin.dao;
 
-import io.renren.modules.sys.entity.FundAdjEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.gongmujijin.entity.FundAdjEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

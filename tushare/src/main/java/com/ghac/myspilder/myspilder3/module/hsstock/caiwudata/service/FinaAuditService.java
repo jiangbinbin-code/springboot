@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.modules.sys.entity.FinaAuditEntity;
+import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.entity.FinaAuditEntity;
 
 import java.util.Map;
 

@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.dao;
 
-import io.renren.modules.sys.entity.ShiborQuoteEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.hongguanjingjin.guoneihongguan.entity.ShiborQuoteEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

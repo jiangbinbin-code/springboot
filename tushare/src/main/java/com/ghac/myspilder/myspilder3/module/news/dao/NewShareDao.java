@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.news.dao;
 
-import io.renren.modules.sys.entity.NewShareEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.news.entity.NewShareEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

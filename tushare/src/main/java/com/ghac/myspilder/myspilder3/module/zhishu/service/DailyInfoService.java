@@ -1,9 +1,8 @@
 package com.ghac.myspilder.myspilder3.module.zhishu.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.modules.sys.entity.DailyEntity;
+import com.ghac.myspilder.myspilder3.module.zhishu.entity.DailyInfoEntity;
 
-import java.util.Map;
 
 /**
  * 
@@ -12,6 +11,6 @@ import java.util.Map;
  * @email sunlightcs@gmail.com
  * @date 2020-11-12 14:57:54
  */
-public interface DailyService extends IService<DailyEntity> {
+public interface DailyInfoService extends IService<DailyInfoEntity> {
 }
 

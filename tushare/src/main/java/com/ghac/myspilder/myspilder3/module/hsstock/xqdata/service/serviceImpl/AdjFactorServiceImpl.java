@@ -1,29 +1,16 @@
-package io.renren.modules.sys.service.impl;
+package com.ghac.myspilder.myspilder3.module.hsstock.xqdata.service.serviceImpl;
 
+import com.ghac.myspilder.myspilder3.module.hsstock.xqdata.dao.AdjFactorDao;
+import com.ghac.myspilder.myspilder3.module.hsstock.xqdata.entity.AdjFactorEntity;
+import com.ghac.myspilder.myspilder3.module.hsstock.xqdata.service.AdjFactorService;
 import org.springframework.stereotype.Service;
-import java.util.Map;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import io.renren.common.utils.PageUtils;
-import io.renren.common.utils.Query;
 
-import io.renren.modules.sys.dao.AdjFactorDao;
-import io.renren.modules.sys.entity.AdjFactorEntity;
-import io.renren.modules.sys.service.AdjFactorService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 
 @Service("adjFactorService")
 public class AdjFactorServiceImpl extends ServiceImpl<AdjFactorDao, AdjFactorEntity> implements AdjFactorService {
 
-    @Override
-    public PageUtils queryPage(Map<String, Object> params) {
-        IPage<AdjFactorEntity> page = this.page(
-                new Query<AdjFactorEntity>().getPage(params),
-                new QueryWrapper<AdjFactorEntity>()
-        );
 
-        return new PageUtils(page);
-    }
 
 }

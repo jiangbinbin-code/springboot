@@ -1,9 +1,8 @@
 package com.ghac.myspilder.myspilder3.module.meistock.dao;
 
-import io.renren.modules.sys.entity.UsTradecalEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.meistock.entity.UsTradecalEntity;
 import org.apache.ibatis.annotations.Mapper;
-
 /**
  * 
  * 

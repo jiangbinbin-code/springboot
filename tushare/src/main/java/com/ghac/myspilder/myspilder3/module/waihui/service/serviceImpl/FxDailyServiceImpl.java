@@ -1,29 +1,15 @@
-package io.renren.modules.sys.service.impl;
+package com.ghac.myspilder.myspilder3.module.waihui.service.serviceImpl;
 
+import com.ghac.myspilder.myspilder3.module.waihui.dao.FxDailyDao;
+import com.ghac.myspilder.myspilder3.module.waihui.entity.FxDailyEntity;
+import com.ghac.myspilder.myspilder3.module.waihui.service.FxDailyService;
 import org.springframework.stereotype.Service;
 import java.util.Map;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import io.renren.common.utils.PageUtils;
-import io.renren.common.utils.Query;
 
-import io.renren.modules.sys.dao.FxDailyDao;
-import io.renren.modules.sys.entity.FxDailyEntity;
-import io.renren.modules.sys.service.FxDailyService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 
 @Service("fxDailyService")
 public class FxDailyServiceImpl extends ServiceImpl<FxDailyDao, FxDailyEntity> implements FxDailyService {
-
-    @Override
-    public PageUtils queryPage(Map<String, Object> params) {
-        IPage<FxDailyEntity> page = this.page(
-                new Query<FxDailyEntity>().getPage(params),
-                new QueryWrapper<FxDailyEntity>()
-        );
-
-        return new PageUtils(page);
-    }
 
 }

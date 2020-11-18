@@ -1,7 +1,7 @@
 package com.ghac.myspilder.myspilder3.module.waihui.dao;
 
-import io.renren.modules.sys.entity.FxDailyEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ghac.myspilder.myspilder3.module.waihui.entity.FxDailyEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

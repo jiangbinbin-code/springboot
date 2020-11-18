@@ -1,8 +1,8 @@
 package com.ghac.myspilder.myspilder3.module.gongmujijin.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.ghac.myspilder.myspilder3.module.gongmujijin.entity.FundDivEntity;
 import com.ghac.myspilder.myspilder3.util.PageUtils;
-import io.renren.modules.sys.entity.FundDivEntity;
 
 import java.util.Map;
 

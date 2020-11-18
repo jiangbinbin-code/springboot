@@ -1,8 +1,8 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.hsstock.xqdata.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.DailyBasicEntity;
+import com.ghac.myspilder.myspilder3.module.hsstock.xqdata.entity.DailyBasicEntity;
+
 
 import java.util.Map;
 
@@ -15,6 +15,5 @@ import java.util.Map;
  */
 public interface DailyBasicService extends IService<DailyBasicEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

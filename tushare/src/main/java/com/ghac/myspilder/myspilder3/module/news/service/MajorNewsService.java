@@ -1,11 +1,7 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.news.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.MajorNewsEntity;
-
-import java.util.Map;
-
+import com.ghac.myspilder.myspilder3.module.news.entity.MajorNewsEntity;
 /**
  * 
  *
@@ -15,6 +11,5 @@ import java.util.Map;
  */
 public interface MajorNewsService extends IService<MajorNewsEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

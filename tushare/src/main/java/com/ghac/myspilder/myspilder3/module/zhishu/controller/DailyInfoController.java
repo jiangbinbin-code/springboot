@@ -1,10 +1,10 @@
 package com.ghac.myspilder.myspilder3.module.zhishu.controller;
 
 
+import com.ghac.myspilder.myspilder3.module.hsstock.xqdata.service.DailyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import io.renren.modules.sys.service.DailyInfoService;
 
 
 
@@ -19,7 +19,7 @@ import io.renren.modules.sys.service.DailyInfoService;
 @RequestMapping("sys/dailyinfo")
 public class DailyInfoController {
     @Autowired
-    private DailyInfoService dailyInfoService;
+    private DailyService dailyInfoService;
 
 
 }
