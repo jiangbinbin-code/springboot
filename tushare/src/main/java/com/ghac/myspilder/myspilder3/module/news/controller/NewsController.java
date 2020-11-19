@@ -1,9 +1,9 @@
 package com.ghac.myspilder.myspilder3.module.news.controller;
 
+import com.ghac.myspilder.myspilder3.module.news.service.NewsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import io.renren.modules.sys.service.NewsService;
 
 
 

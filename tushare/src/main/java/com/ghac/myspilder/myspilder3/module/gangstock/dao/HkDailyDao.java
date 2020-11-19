@@ -1,6 +1,5 @@
-package io.renren.modules.sys.dao;
-
-import io.renren.modules.sys.entity.HkDailyEntity;
+package com.ghac.myspilder.myspilder3.module.gangstock.dao;
+import com.ghac.myspilder.myspilder3.module.gangstock.entity.HkDailyEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

@@ -1,26 +1,15 @@
-package io.renren.modules.sys.service.impl;
+package com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.service.impl;
 
+import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.dao.ExpressDao;
 import org.springframework.stereotype.Service;
-import java.util.Map;
-import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.dao.IncomeDao;
-import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.service.IncomeService;
-import org.springframework.stereotype.Service;
+import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.service.ExpressService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
-import io.renren.modules.sys.entity.IncomeEntity;
+import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.entity.ExpressEntity;
 
 
 @Service("expressService")
 public class ExpressServiceImpl extends ServiceImpl<ExpressDao, ExpressEntity> implements ExpressService {
 
-    @Override
-    public PageUtils queryPage(Map<String, Object> params) {
-        IPage<ExpressEntity> page = this.page(
-                new Query<ExpressEntity>().getPage(params),
-                new QueryWrapper<ExpressEntity>()
-        );
-
-        return new PageUtils(page);
-    }
 
 }

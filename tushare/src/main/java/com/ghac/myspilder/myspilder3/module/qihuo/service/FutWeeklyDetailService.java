@@ -1,10 +1,8 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.qihuo.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.FutWeeklyDetailEntity;
+import com.ghac.myspilder.myspilder3.module.qihuo.entity.FutWeeklyDetailEntity;
 
-import java.util.Map;
 
 /**
  * 
@@ -15,6 +13,5 @@ import java.util.Map;
  */
 public interface FutWeeklyDetailService extends IService<FutWeeklyDetailEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

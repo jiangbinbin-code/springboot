@@ -1,11 +1,11 @@
 package com.ghac.myspilder.myspilder3.module.gangstock.service.serviceImpl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.ghac.myspilder.myspilder3.module.gangstock.dao.HkTradecalDao;
+import com.ghac.myspilder.myspilder3.module.gangstock.entity.HkTradecalEntity;
 import com.ghac.myspilder.myspilder3.module.gangstock.service.HkTradecalService;
 import org.springframework.stereotype.Service;
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import io.renren.modules.sys.dao.HkTradecalDao;
-import io.renren.modules.sys.entity.HkTradecalEntity;
 
 
 @Service("hkTradecalService")

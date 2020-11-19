@@ -2,13 +2,10 @@ package com.ghac.myspilder.myspilder3.module.gangstock.service.serviceImpl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ghac.myspilder.myspilder3.module.gangstock.dao.HkBasicDao;
+import com.ghac.myspilder.myspilder3.module.gangstock.entity.HkBasicEntity;
 import com.ghac.myspilder.myspilder3.module.gangstock.service.HkBasicService;
-import com.ghac.myspilder.myspilder3.util.PageUtils;
 import org.springframework.stereotype.Service;
-import java.util.Map;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import io.renren.modules.sys.entity.HkBasicEntity;
+
 
 
 

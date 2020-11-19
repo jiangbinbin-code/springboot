@@ -1,10 +1,8 @@
-package io.renren.modules.sys.service;
+package com.ghac.myspilder.myspilder3.module.qihuo.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.renren.common.utils.PageUtils;
-import io.renren.modules.sys.entity.FutHoldingEntity;
+import com.ghac.myspilder.myspilder3.module.qihuo.entity.FutHoldingEntity;
 
-import java.util.Map;
 
 /**
  * 
@@ -15,6 +13,5 @@ import java.util.Map;
  */
 public interface FutHoldingService extends IService<FutHoldingEntity> {
 
-    PageUtils queryPage(Map<String, Object> params);
 }
 

@@ -1,6 +1,6 @@
 package com.ghac.myspilder.myspilder3.module.qihuo.dao;
 
-import io.renren.modules.sys.entity.FutWsrEntity;
+import com.ghac.myspilder.myspilder3.module.qihuo.entity.FutWsrEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

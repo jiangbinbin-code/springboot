@@ -1,10 +1,8 @@
 package com.ghac.myspilder.myspilder3.module.gangstock.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.ghac.myspilder.myspilder3.util.PageUtils;
-import io.renren.modules.sys.entity.HkDailyEntity;
+import com.ghac.myspilder.myspilder3.module.gangstock.entity.HkDailyEntity;
 
-import java.util.Map;
 
 /**
  * 

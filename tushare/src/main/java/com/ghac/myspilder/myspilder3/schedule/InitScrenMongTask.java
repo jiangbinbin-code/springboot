@@ -1,20 +1,48 @@
 package com.ghac.myspilder.myspilder3.schedule;
 
 
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.dao.StockBasicDao;
+import com.ghac.myspilder.myspilder3.module.hsstock.basicdata.entity.StockBasicEntity;
+import com.ghac.myspilder.myspilder3.mongdb.entity.Tushare;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.data.mongodb.core.query.Query;
 
-import java.time.LocalDateTime;
+import java.util.List;
 
 @Configuration
 @EnableScheduling
 public class InitScrenMongTask {
-    //3.添加定时任务
+
+    @Autowired
+    private MongoTemplate mongoTemplate;
+    @Autowired
+    private StockBasicDao stockBasicDao;
+   //3.添加定时任务
     @Scheduled(cron = "0/5 * * * * ?")
     //或直接指定时间间隔，例如：5秒
     //@Scheduled(fixedRate=5000)
     private void configureTasks() {
-        System.err.println("执行静态定时任务时间: " + LocalDateTime.now());
+        Query query=new Query();
+        query.addCriteria(Criteria.where("type").is("1"));
+        List<Tushare> ts = mongoTemplate.find(query, Tushare.class);
+        if(null != ts &&  ts.size()>0){
+            ts.forEach(tushare -> {
+                String data = tushare.getData();
+                String s = JSONObject.toJSONString(data);
+                System.out.println(s);
+//                List<StockBasicEntity>  sbasics= JSONArray.parseArray(s, StockBasicEntity.class);
+//                stockBasicDao.()
+            });
+        }
     }
 }

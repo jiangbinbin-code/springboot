@@ -1,25 +1,14 @@
-package io.renren.modules.sys.service.impl;
+package com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.service.impl;
 
+import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.dao.FinaMainbzDao;
 import org.springframework.stereotype.Service;
-import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.dao.IncomeDao;
-import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.service.IncomeService;
-import org.springframework.stereotype.Service;
+import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.service.FinaMainbzService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
-import io.renren.modules.sys.entity.IncomeEntity;
-
+import com.ghac.myspilder.myspilder3.module.hsstock.caiwudata.entity.FinaMainbzEntity;
 
 @Service("finaMainbzService")
 public class FinaMainbzServiceImpl extends ServiceImpl<FinaMainbzDao, FinaMainbzEntity> implements FinaMainbzService {
 
-    @Override
-    public PageUtils queryPage(Map<String, Object> params) {
-        IPage<FinaMainbzEntity> page = this.page(
-                new Query<FinaMainbzEntity>().getPage(params),
-                new QueryWrapper<FinaMainbzEntity>()
-        );
-
-        return new PageUtils(page);
-    }
 
 }

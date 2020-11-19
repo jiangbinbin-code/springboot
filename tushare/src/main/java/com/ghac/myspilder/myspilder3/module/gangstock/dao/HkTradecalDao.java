@@ -1,6 +1,6 @@
-package io.renren.modules.sys.dao;
+package com.ghac.myspilder.myspilder3.module.gangstock.dao;
 
-import io.renren.modules.sys.entity.HkTradecalEntity;
+import com.ghac.myspilder.myspilder3.module.gangstock.entity.HkTradecalEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
